@@ -1,0 +1,266 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    background: ghostwhite;
+
+}
+
+.Menu
+{
+    width: 100%;
+    height: 75px;
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: darkslategray;
+    font-family: monospace;
+}
+.Menu ul
+{
+    list-style: none;
+}
+.Menu li
+{
+    float: left;
+    margin-left: 0px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+.Menu a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+
+}
+.Menu li:hover
+{
+    background-color: darkcyan;
+    background: -webkit-linear-gradient(bottom,  darkcyan 92% , darkorange 8%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom,  darkcyan 92% , darkorange 8%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, darkcyan 92% , darkorange 8%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, darkcyan 92% , darkorange 8%); /* Standard syntax */
+}
+
+
+
+input[type="button"],input[type="Submit"]
+{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    margin-left: 10px;
+    background-color: darkslategray;
+    color: white;
+
+}
+input[type="submit"]:hover
+{
+    background-color: darkcyan;
+}
+
+input[type="button"]:hover
+{
+    background-color: darkcyan;
+}
+.btn
+{
+    float: left;
+}
+
+.op
+{
+    width: 100%;
+    height: 500px;
+    padding-left: 41%;
+    margin-top: 80px;
+}
+
+.Formulario input[type="text"],.Formulario input[type="email"]
+{
+    margin-top: 15px;
+    font-size: 16px;
+}
+.Formulario span
+{
+    font-size: 12px;
+}
+
+.Formulario input[type="submit"]
+{
+    margin-left: 0px;
+}
+.Pesquisar
+{
+    width: 100%;
+    height: 40px;
+    padding-left: 30%;
+    margin-bottom: 100px;
+}
+.Pesquisar input[type="search"]
+{
+
+    width: 380px;
+    height: 25px;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 40px;
+
+}
+.Pesquisar input[type="submit"]
+{
+    width: 60px;
+    height: 25px;
+    margin-left: -64px;
+
+}
+
+footer
+{
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    font-family: Arial;
+    margin-top: 300px;
+    background: darkslategray;
+}
+.Imagem
+{
+    float: left;
+    width: 30%;
+    padding-left: 200px;
+    padding-top: 40px;
+    height: 200px;
+    text-size:18px;
+    color: darkorange;
+}
+.icn
+{
+    width: 190px;
+    height: 190px;
+}
+.icn2
+{
+    width: 200px;
+    height: 200px;
+}
+.Formulario
+{
+
+    max-width: 100%;
+    margin-top: 40px;
+    padding-left: 700px;
+    width: 70%;
+}
+.Formulario select,input[type="checkbox"],input[type="date"]
+{
+
+    margin-top: 10px;
+}
+.txtcodigo
+{
+    margin-top: 90px;
+}
+table
+{
+    border-radius: 4px;
+    margin-top: 40px;
+    width:95%;
+}
+table, th, td {
+    border: 1px solid darkcyan;
+    border-collapse: collapse;
+}
+th
+{
+    font-size: 17px;
+    background-color: darkslategray;
+    height: 40px;
+    color: white;
+
+
+}
+td
+{
+    cursor: hand;
+    height: 20px;
+    padding-left: 5px;
+}
+tr
+{
+    background-color: ghostwhite;
+    cursor: hand;
+    height: 20px;
+
+}
+tr:hover
+{
+    background-color: darkcyan;
+    cursor: hand;
+    color: whitesmoke;
+}
+.Buscar
+{
+    padding-left: 50px;
+}
+select
+{
+    width: 200px;
+    font-size: 15px;
+}
+select option:hover
+{
+    background-color: darkcyan;
+}
+.Buscar h2
+{
+    margin-left: 35%;
+    margin-top: 20px;
+}
+.Buscar img
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 39%;
+}
+.vtxt
+{
+    margin-right: 10px;
+}
+.al
+{
+    margin-right: 10px;
+}
+.ald
+{
+    margin-right: 10px;
+    width: 195px;
+}
+.menu2
+{
+    margin-left: 60px;
+    font-size: 17px;
+    font-family: monospace;
+
+}
+.menu2 a
+{
+    text-decoration: none;
+    margin-right: 15px;
+    color: midnightblue;
+    text-align: center;
+}
+.menu2 a:hover
+{
+
+    color: darkorange;
+}
+
